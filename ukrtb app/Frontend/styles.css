@@ -18,6 +18,24 @@
     transition: all 0.2s ease-in-out;
 }
 
+.counter-couple {
+    width: 25px; 
+    height: 25px; 
+    padding: 20px; 
+    background: #292929; 
+    border-radius: 12px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
 .skip-counter {
     width: 239.47px; 
     height: 173px; 
