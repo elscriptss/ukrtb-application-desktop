@@ -1,0 +1,79 @@
+.btn {
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 16px; 
+    padding-bottom: 16px; 
+    background: #292929; 
+    border-radius: 6px; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    text-align: center; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.skip-counter {
+    width: 239.47px; 
+    height: 173px; 
+    padding: 20px; 
+    left: 757px; 
+    top: 69px; 
+    position: absolute; 
+    background: #171717; 
+    border-radius: 13.72px; 
+    overflow: hidden; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20.58px; 
+    display: inline-flex;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.skip-counter:hover {
+    opacity: 0.9;
+}
+
+.skip-counter .imgicon {
+    position: absolute; 
+    left: 60%; 
+    width: 159px; 
+    height: 154px; 
+    transform: rotate(11.06deg); 
+    opacity: 0.5; 
+    transform-origin: 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.skip-counter:hover .imgicon {
+    transform: scale(1.01);
+}
+
+.skip-counter .count {
+    text-align: center; 
+    color: rgba(255, 255, 255, 0.80); 
+    font-size: 80px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.skip-counter .description {
+    text-align: center; 
+    color: rgba(255, 255, 255, 0.50); 
+    font-size: 16.01px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
